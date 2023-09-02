@@ -1,14 +1,61 @@
 header {
     width: 1400px;
     height: 52px;
-    border: 1px white solid;
+    background-color: $cor-background;
+
+    img {
+        width: 34px;
+        height: 34px;
+        margin-top: 9px;
+        margin-left: 153px;
+    }
+
+    .material-symbols-outlined {
+        font-size: 1.5em;
+        float: left;
+        position: relative;
+        margin: 6px 0 0 6px;
+    }
+
+    #pesquisa {
+        border-radius: 10px;
+        display: flex;
+        width: 280px;
+        height: 34px;
+        margin: -38px 0 0 195px;
+        opacity: 90%;
+    }
+    
+    #txtPesquisa {
+        padding-left: 40px;
+        font-size: 0.875em;
+        line-height: 30px;
+        color: $cor-texto-primario;
+        border: none;
+    }
+
+    input {
+        border-radius: 4px;
+        background-color: $cor-input;
+        width: 280px;
+        height: 34px;
+        position: absolute;
+    }
+
+    input::placeholder {
+        color: $cor-texto-primario;
+        opacity: 90%;
+    }
+    
+
+
+
 
     ul {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         list-style: none;
-
     }
 
     a {
