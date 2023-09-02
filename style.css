@@ -4,6 +4,101 @@
   box-sizing: 0;
 }
 
+body {
+  background-color: #000;
+  color: #FFF;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: 52px;
+  background-color: #1B2226;
+}
+header img {
+  width: 34px;
+  height: 34px;
+  margin-top: 9px;
+  margin-left: 153px;
+}
+header .material-symbols-outlined {
+  font-size: 1.5em;
+  float: left;
+  position: relative;
+  margin: 6px 0 0 6px;
+}
+header #pesquisa {
+  width: 280px;
+  height: 34px;
+  margin: -38px 0 0 195px;
+  border-radius: 10px;
+  opacity: 90%;
+}
+header #txtPesquisa {
+  padding-left: 40px;
+  font-size: 0.875em;
+  line-height: 30px;
+  color: #FFF;
+  border: none;
+}
+header input {
+  border-radius: 4px;
+  background-color: #38434F;
+  width: 280px;
+  height: 34px;
+  position: absolute;
+}
+header input::-moz-placeholder {
+  color: #FFF;
+  opacity: 90%;
+}
+header input::placeholder {
+  color: #FFF;
+  opacity: 90%;
+}
+
+nav {
+  width: 400px;
+  height: 38px;
+  margin: -40px 0 0 574px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid #FFF;
+  padding-right: 20px;
+}
+nav .li-ajuste {
+  font-size: 0.875em;
+  padding: 0 13px;
+  list-style: none;
+}
+nav a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 1em;
+}
+nav p {
+  color: #FFF;
+  width: 80px;
+  line-height: 14.06px;
+  font-size: 0.75em;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: capitalize;
+  margin-left: -22px;
+  cursor: pointer;
+}
+nav .solucoes-ajuste {
+  width: 100px;
+  height: 38px;
+  display: flex;
+  flex-direction: column;
+  margin: -44px 0 0 430px;
+}
+
 main {
   max-width: 780px;
   height: 468px;
@@ -61,6 +156,7 @@ main #btn-informacaoes {
 }
 main .btn-mensagens,
 main .btn-mais {
+  cursor: pointer;
   width: 128px;
   height: 32px;
   border: none;
@@ -96,67 +192,4 @@ main #detalhes-empresa {
 main #detalhes-alinhamento {
   display: flex;
   flex-direction: row;
-}
-
-header {
-  width: 1400px;
-  height: 52px;
-  background-color: #1B2226;
-}
-header img {
-  width: 34px;
-  height: 34px;
-  margin-top: 9px;
-  margin-left: 153px;
-}
-header .material-symbols-outlined {
-  font-size: 1.5em;
-  float: left;
-  position: relative;
-  margin: 6px 0 0 6px;
-}
-header #pesquisa {
-  border-radius: 10px;
-  display: flex;
-  width: 280px;
-  height: 34px;
-  margin: -38px 0 0 195px;
-  opacity: 90%;
-}
-header #txtPesquisa {
-  padding-left: 40px;
-  font-size: 0.875em;
-  line-height: 30px;
-  color: #FFF;
-  border: none;
-}
-header input {
-  border-radius: 4px;
-  background-color: #38434F;
-  width: 280px;
-  height: 34px;
-  position: absolute;
-}
-header input::-moz-placeholder {
-  color: #FFF;
-  opacity: 90%;
-}
-header input::placeholder {
-  color: #FFF;
-  opacity: 90%;
-}
-header ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  list-style: none;
-}
-header a {
-  text-decoration: none;
-}
-
-body {
-  background-color: #000;
-  color: #FFF;
-  font-family: "Roboto", sans-serif;
 }/*# sourceMappingURL=style.css.map */

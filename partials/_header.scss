@@ -1,5 +1,5 @@
 header {
-    width: 1400px;
+    width: 100vw;
     height: 52px;
     background-color: $cor-background;
 
@@ -18,14 +18,13 @@ header {
     }
 
     #pesquisa {
-        border-radius: 10px;
-        display: flex;
         width: 280px;
         height: 34px;
         margin: -38px 0 0 195px;
+        border-radius: 10px;
         opacity: 90%;
     }
-    
+
     #txtPesquisa {
         padding-left: 40px;
         font-size: 0.875em;
@@ -46,19 +45,54 @@ header {
         color: $cor-texto-primario;
         opacity: 90%;
     }
+
+}
+
+nav {
+    width: 400px;
+    height: 38px;
+    margin: -40px 0 0 574px;
     
-
-
-
-
+    
     ul {
         display: flex;
-        align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
+        border-right: 1px solid $cor-texto-primario;
+        padding-right: 20px;
+    }
+
+    .li-ajuste {
+        font-size: 0.875em;
+        padding: 0 13px;
         list-style: none;
     }
 
     a {
+        color: $cor-texto-primario;
         text-decoration: none;
+        font-size: 1em;
     }
+
+    p {
+        color: $cor-texto-primario;
+        width: 80px;
+        line-height: 14.06px;
+        font-size: 0.75em;
+        text-align: center;
+        letter-spacing: 1px;
+        text-decoration: none;
+        display: inline-block;
+        text-transform: capitalize;
+        margin-left: -22px;
+        cursor: pointer;
+
+    }
+    .solucoes-ajuste {
+        width: 100px;
+        height: 38px;
+        display: flex;
+        flex-direction: column;
+        margin:  -44px 0 0 430px ;
+    }
+
 }
