@@ -4,21 +4,17 @@
   box-sizing: 0;
 }
 
-body {
-  background-color: #1B2226;
-  color: #FFF;
-  font-family: "Roboto", sans-serif;
-}
-
-main #container-informacoes {
-  border: 1px #FFF solid;
+main {
   max-width: 780px;
   height: 468px;
   margin: 76px 0 0 154px;
+  border-radius: 10px;
+  background-color: #1B2226;
 }
 main #imagens-informacoes #imagem-capa {
   width: 100%;
   height: 230px;
+  border-radius: 10px 10px 0 0;
 }
 main #imagens-informacoes #imagem-perfil {
   width: 160px;
@@ -104,6 +100,11 @@ main #detalhes-alinhamento {
   flex-direction: row;
 }
 
+header {
+  width: 1400px;
+  height: 52px;
+  border: 1px white solid;
+}
 header ul {
   display: flex;
   align-items: center;
@@ -112,4 +113,10 @@ header ul {
 }
 header a {
   text-decoration: none;
+}
+
+body {
+  background-color: #000;
+  color: #FFF;
+  font-family: "Roboto", sans-serif;
 }/*# sourceMappingURL=style.css.map */
