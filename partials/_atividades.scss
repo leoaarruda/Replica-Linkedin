@@ -1,0 +1,76 @@
+#atividades {
+    width: 780px;
+    height: 371px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 153px;
+    border-radius: 16px;
+    background-color: $cor-background;
+    color: $cor-texto-primario;
+
+    h2 {
+        width: 96px;
+        height: 30px;
+        font-weight: 600;
+        font-size: 1.25em;
+        line-height: 30px;
+        opacity: 90%;
+        padding: 15px 0 0 25px;
+        text-transform: capitalize;
+    }
+
+    h4 {
+        font-weight: 500;
+        font-size: 0.875em;
+        line-height: 20px;
+        opacity: 90%;
+        margin-left: 25px;
+        // padding-bottom: 10px;
+        color: $cor-texto-secundario;
+    }
+
+    p {
+        width: 662px;
+        height: 64px;
+        font-size: 0.875em;
+        margin: -65px 0 0 75px;
+    }
+
+    .atividades-comentario {
+        width: 734px;
+        height: 128px;
+        margin: 10px 0 0 20px;
+        border-bottom: 1px solid $cor-texto-primario;
+    }
+
+    .atividades-nome-postagem {
+        width: 260px;
+        height: 20px;
+        opacity: 60%;
+        font-size: 0.875em;
+        margin-top: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .atividades-img {
+        width: 64px;
+        height: 64px;
+        margin-top: 5PX;
+    }
+
+    .reacoes-img {
+        transform: translatey(10px);
+
+    }
+
+    .atividades-reacoes-alinhamento{
+        transform: translatey(-12px);
+        margin-left: 35px;
+        
+    }
+    .atividade-comentarios-alinhamento {
+        transform: translatey(-32px);
+        margin-left: 620px;
+    }
+}

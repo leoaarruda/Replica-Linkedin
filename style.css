@@ -8,6 +8,7 @@ body {
   background-color: #000;
   color: #FFF;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 header {
@@ -252,4 +253,70 @@ main #detalhes p {
 }
 #destaques .comentarios-alinhamento {
   margin-left: 145px;
+}
+
+#atividades {
+  width: 780px;
+  height: 371px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 0 153px;
+  border-radius: 16px;
+  background-color: #1B2226;
+  color: #FFF;
+}
+#atividades h2 {
+  width: 96px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 1.25em;
+  line-height: 30px;
+  opacity: 90%;
+  padding: 15px 0 0 25px;
+  text-transform: capitalize;
+}
+#atividades h4 {
+  font-weight: 500;
+  font-size: 0.875em;
+  line-height: 20px;
+  opacity: 90%;
+  margin-left: 25px;
+  color: #70B5F9;
+}
+#atividades p {
+  width: 662px;
+  height: 64px;
+  font-size: 0.875em;
+  margin: -65px 0 0 75px;
+}
+#atividades .atividades-comentario {
+  width: 734px;
+  height: 128px;
+  margin: 10px 0 0 20px;
+  border-bottom: 1px solid #FFF;
+}
+#atividades .atividades-nome-postagem {
+  width: 260px;
+  height: 20px;
+  opacity: 60%;
+  font-size: 0.875em;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-around;
+}
+#atividades .atividades-img {
+  width: 64px;
+  height: 64px;
+  margin-top: 5PX;
+}
+#atividades .reacoes-img {
+  transform: translatey(10px);
+}
+#atividades .atividades-reacoes-alinhamento {
+  transform: translatey(-12px);
+  margin-left: 35px;
+}
+#atividades .atividade-comentarios-alinhamento {
+  transform: translatey(-32px);
+  margin-left: 620px;
 }/*# sourceMappingURL=style.css.map */
