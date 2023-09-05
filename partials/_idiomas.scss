@@ -1,0 +1,33 @@
+#idiomas {
+    width: 780px;
+    height: 178px;
+    margin: 10px 0 0 153px;
+    border-radius: 16px;
+    background-color: $cor-background;
+    
+    .idomas-texto {
+        width: 700px;
+        height: 52px;
+        margin-left: 25px;
+        padding: 5px 0;
+        
+        h4 {
+            font-size: 1em;
+            font-weight: 600;
+            line-height: 30px;
+            opacity: 90%;
+        }
+        
+        p {
+            font-size: 0.875em;
+            font-weight: 400px;
+            opacity: 60%;
+        }
+    
+    }
+
+    .border-bottom {
+        border-bottom: 1px solid $cor-texto-primario;
+    }
+}
+
