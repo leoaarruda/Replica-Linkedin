@@ -10,6 +10,14 @@ body {
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
+body h2 {
+  font-weight: 600;
+  font-size: 1.25em;
+  line-height: 30px;
+  opacity: 90%;
+  padding: 15px 0 0 25px;
+  text-transform: capitalize;
+}
 
 header {
   width: 100vw;
@@ -207,15 +215,6 @@ main #detalhes p {
   margin-top: 10px;
   border: 1px solid #FFF;
 }
-#destaques h2 {
-  width: 96px;
-  height: 30px;
-  font-weight: 600;
-  font-size: 1.25em;
-  line-height: 30px;
-  opacity: 90%;
-  padding: 15px 0 0 25px;
-}
 #destaques h5,
 #destaques p {
   width: 206px;
@@ -266,8 +265,6 @@ main #detalhes p {
   color: #FFF;
 }
 #atividades h2 {
-  width: 96px;
-  height: 30px;
   font-weight: 600;
   font-size: 1.25em;
   line-height: 30px;
@@ -319,4 +316,81 @@ main #detalhes p {
 #atividades .atividade-comentarios-alinhamento {
   transform: translatey(-32px);
   margin-left: 630px;
+}
+#atividades .exibir-atividades {
+  font-size: 0.75em;
+  text-align: center;
+  margin-top: 6px;
+  opacity: 60%;
+}
+
+#sobre {
+  width: 780px;
+  height: 134px;
+  border-radius: 16px;
+  background-color: #1B2226;
+  margin: 10px 0 0 153px;
+}
+#sobre section {
+  width: 740px;
+  height: 64px;
+  font-size: 0.875em;
+  margin: 5px 0 0 25px;
+}
+
+#experiencias {
+  width: 780px;
+  height: 358px;
+  border-radius: 16px;
+  margin: 10px 0 0 153px;
+  color: #FFF;
+  background-color: #1B2226;
+}
+#experiencias #elipseLinha {
+  width: 9px;
+  height: 240px;
+  display: flex;
+  margin-left: 45px;
+  flex-direction: column;
+  justify-content: space-between;
+  transform: translatey(-32px);
+}
+#experiencias #experiencias-img {
+  width: 48px;
+  height: 48px;
+  margin: 5px 0 0 25px;
+}
+#experiencias h4 {
+  opacity: 90%;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 20px;
+  margin-left: 80px;
+  text-transform: capitalize;
+  transform: translatey(-45px);
+  color: #FFF;
+}
+#experiencias p {
+  opacity: 60%;
+  font-weight: 400;
+  margin-left: 80px;
+  line-height: 16px;
+  font-size: 0.875em;
+  text-transform: lowercase;
+  transform: translatey(-44px);
+}
+
+#experiencias-texto {
+  margin-top: -231px;
+  margin-left: 80px;
+  display: grid;
+  gap: 16px;
+}
+#experiencias-texto h4,
+#experiencias-texto h5,
+#experiencias-texto p {
+  margin: 0;
+}
+#experiencias-texto h5 {
+  transform: translateY(-45px);
 }/*# sourceMappingURL=style.css.map */
