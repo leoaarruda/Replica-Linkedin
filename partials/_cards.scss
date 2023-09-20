@@ -1,0 +1,79 @@
+.card-lateral,
+.card-lateral2 {
+    width: 280px;
+    height: 546px;
+    float: right;
+    font-family: 'Inter', sans-serif;
+    border-radius: 16px;
+    margin: 20px 25px 0 0;
+    color: $cor-texto-primario;
+    background-color: $cor-background;
+
+    img {
+        width: 48px;
+        height: 48px;
+    }
+
+    h4 {
+        font-size: 0.875em;
+        font-weight: 700;
+        line-height: 19.36px;
+        padding: 15px 0 0 20px;
+        opacity: 90%;
+    }
+
+    h5 {
+        margin: 0 0 5px 5px;
+        font-size: 0.875em;
+        opacity: 90%;
+        font-weight: 700;
+        line-height: 16.94px;
+    }
+
+    p {
+        width: 210px;
+        height: 30px;
+        opacity: 60%;
+        font-size: 0.75em;
+        line-height: 14.52px;
+        margin-left: 5px;
+    }
+
+    .card-conteudo {
+        width: 284px;
+        height: 48px;
+    }
+
+    .card-alinhamento {
+        margin: 20px 0 0 20px;
+        display: grid;
+        gap: 49px;
+    }
+
+    .card-texto-alinhamento {
+        transform: translateY(-56px);
+        margin-left: 50px;
+
+    }
+
+    .btn-enviarMensagem {
+        transform: translateY(-48px);
+        margin-left: 55px;
+    }
+    
+    .btn-mensagens {
+        cursor: pointer;
+        border-radius: 16px;
+        background: transparent;
+        color: $cor-texto-primario;
+        width: 154px;
+        height: 28px;
+        border: 1px $cor-texto-primario solid;
+    }
+
+}
+
+.card-lateral2 {
+    margin-top: -235px;
+}
+
